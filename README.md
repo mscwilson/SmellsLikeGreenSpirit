@@ -13,7 +13,15 @@
 <img  alt="Version"  src="https://img.shields.io/badge/yarn-1.22.10-brightgreen?style=for-the-badge"  />
 
 
-## About
+[Description](#description)  
+[Technologies Used](#technologies-used)  
+[Cars and Carbon Emissions](#cars-and-carbon-emissions)  
+[Development Team](#development-team)  
+[Installation and Usage](#installation-and-usage)  
+[Learning](#learning)  
+[Things to Improve](#things-to-improve)  
+
+## Description
 
 Spring Onion is a mobile app on iOS and Android that allow users to calculate the carbon footprint of car journeys.  
 
@@ -23,7 +31,7 @@ This was a team project in the final two weeks of the [Makers Academy](https://m
 
 <b>No further development is planned for this app.</b>
 
-## Technologies used
+## Technologies Used
 
 We chose [React Native](https://reactnative.dev/) as it is cross-platform, extremely well documented, and to practice JavaScript. As we only had two weeks, we simplified the project by using the [Expo](https://expo.io/) platform.
 
@@ -56,7 +64,7 @@ We used the [DVLA Vehicle Enquiry API](https://developer-portal.driver-vehicle-l
 The best solution for reducing atmospheric carbon is to reduce carbon emissions. But if emissions are unavoidable, the effects can theoretically be mitigated by carbon offsetting: paying a company to invest in schemes to sequester carbon or reduce emissions elsewhere.
 
 
-## Development Team - Smells Like Green Spirit
+## Development Team
 
 [Glykeria Stravodimou](https://github.com/GlykeriaStr)  
 [Jonathan Dawson](https://github.com/KarstenFinlay)  
@@ -64,7 +72,7 @@ The best solution for reducing atmospheric carbon is to reduce carbon emissions.
 [Miranda Wilson](https://github.com/mscwilson)  
 [Tom Twigden](https://github.com/twigz826)
 
-## How To Run
+## Installation and Usage
 
 1) Clone this repository
 2) Navigate to the root directory of the project
