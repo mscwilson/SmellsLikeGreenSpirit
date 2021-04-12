@@ -55,7 +55,9 @@ const HomeScreen = ({ navigation }) => {
         </Text>
       </View>
       <View style={styles.container}>
-        <Text style={styles.bigText}>How much CO2</Text>
+        <Text style={styles.bigText}>
+          How much CO<Text style={styles.bigTextSubscript}>2</Text>
+        </Text>
         <Text style={styles.bigText}>will your journey</Text>
         <Text style={styles.bigText}>release?</Text>
       </View>
@@ -119,6 +121,15 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     fontFamily: 'Futura',
     fontSize: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  bigTextSubscript: {
+    color: '#311844',
+    padding: 3,
+    paddingBottom: 10,
+    fontFamily: 'Futura',
+    fontSize: 20,
     justifyContent: 'center',
     alignItems: 'center',
   },
