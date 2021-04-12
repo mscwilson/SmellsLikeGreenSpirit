@@ -27,23 +27,36 @@ This was a team project in the final two weeks of the [Makers Academy](https://m
 <b>No further development is planned for this app.</b>
 
 The app looks like this:
-The Home screen after the app loads.
-![home screen on loading](assets/screenshots/homescreen.png)
+<figure style="margin: auto;">
+<img src="assets/screenshots/homescreen.png" alt="home screen on loading" width="150">
+<figcaption>The Home screen after the app loads.</figcaption>
+</figure><br>
 
-Filled in number plate and the distance. The user can toggle between km and miles.
-![home screen filled in](assets/screenshots/homescreen_filled.png)
+<figure style="margin: auto;">
+<img src="assets/screenshots/homescreen_filled.png" alt="home screen filled in" width="150">
+<figcaption>Filled in number plate and the distance. The user can toggle between km and miles.</figcaption>
+</figure><br>
 
-This is how much CO<sub>2</sub> would be emitted directly out of the car for a journey of that length.
-![results for normal car](assets/screenshots/results.png)
+<figure style="margin: auto;">
+<img src="assets/screenshots/results.png" alt="results for normal car" width="150">
+<figcaption>This is how much CO<sub>2</sub> would be emitted directly out of the car for a journey of that length.</figcaption>
+</figure><br>
 
-No emissions for an electric car.
-![results for electric car](assets/screenshots/results_electric.png)
+<figure style="margin: auto;">
+<img src="assets/screenshots/results_electric.png" alt="results for electric car" width="150">
+<figcaption>No emissions for an electric car.</figcaption>
+</figure><br>
 
-The history of all entered journeys.
-![journey history](assets/screenshots/history.png)
+<figure style="margin: auto;">
+<img src="assets/screenshots/history.png" alt="journey history" width="150">
+<figcaption>The history of all entered journeys.</figcaption>
+</figure><br>
 
-An About screen, which also links to more facts about carbon emissions.
-![about the app](assets/screenshots/about.png)
+<figure style="margin: auto;">
+<img src="assets/screenshots/about.png" alt="about the app" width="150">
+<figcaption>An About screen, which also links to more facts about carbon emissions.</figcaption>
+</figure><br>
+
 
 ## Technologies Used
 
@@ -99,8 +112,8 @@ You will need an API key from [DVLA Vehicle Enquiry API](https://developer-porta
    ```
    const VEHICLE_KEY = 'your API key here';
    export default VEHICLE_KEY;
-  ```
-7) Open a simulator for iOS using `yarn ios` (you must have Xcode installed), or for Android (you must have Android Studio installed).
+   ```
+7) Open a simulator for iOS using `yarn ios` (you must have Xcode installed), or for Android (you must have Android Studio installed)
 8) Learn interesting facts about carbon emissions
 
 ## Learning
@@ -110,13 +123,13 @@ Check out our learning log [here](https://github.com/GlykeriaStr/SmellsLikeGreen
 Check out our team charter [here](https://docs.google.com/document/d/15LuIkztoejXSH3xnyBak-b4HoZsaHOXN011JJEcq4zk/edit).
 
 ## Things to Improve
-1) This app works on iOS and Android, but is not currently supported on the web.
-2) Because we used a managed Expo workflow, we were limited in several ways. The native config files are hidden in this type of project, and many libraries are not supported. It's possible to "eject" from Expo, but we didn't have time during the project.
- * No automated E2E testing. We regularly followed a manual testing protocol instead.
- * No In-App Purchases. We wanted the user to be able to buy carbon offsets directly. As a temporary solution, we linked to a company's website.
- * No Automatic Licence Plate Recognition. It would have been very cool if the user could take a picture of their licence plate instead of typing it in.
+* This app works on iOS and Android, but is not currently supported on the web.
+* Because we used a managed Expo workflow, we were limited in several ways. The native config files are hidden in this type of project, and many libraries are not supported. It's possible to "eject" from Expo, but we didn't have time during the project.
+  * No automated E2E testing. We regularly followed a manual testing protocol instead.
+  * No In-App Purchases. We wanted the user to be able to buy carbon offsets directly. As a temporary solution, we linked to a company's website.
+  * No Automatic Licence Plate Recognition. It would have been very cool if the user could take a picture of their licence plate instead of typing it in.
 
-2) The app only works for UK number plates, because we're using a British API. It would be easy to add support for different countries in the future.
-3) At the moment, the user enters the distance for their journey. It would be great to include a map service in the app where they could plot their actual journey. This would also open the door for calculating equivalent carbon emissions for the same journey by other means of transport.
-4) As discussed above, each car's CO<sub>2</sub> emissions value represents only the direct emissions out of the car. To give the user a fuller idea of the cost of their journey, some estimation of the Well-to-Wheel emissions could be added.
-5) We used SecureStore to store the journey history, rather than a full database. It's a very simple way to securely store key-value pairs on the device. However, all the journeys are stored into the same key, for ease of access. There's a 2048 bytes limit on value size, and so the storage can get full after a few dozen journeys. It would be possible to fix this by handling the SecureStorage keys more effectively, or by using a database.
+* The app only works for UK number plates, because we're using a British API. It would be easy to add support for different countries in the future.
+* At the moment, the user enters the distance for their journey. It would be great to include a map service in the app where they could plot their actual journey. This would also open the door for calculating equivalent carbon emissions for the same journey by other means of transport.
+* As discussed above, each car's CO<sub>2</sub> emissions value represents only the direct emissions out of the car. To give the user a fuller idea of the cost of their journey, some estimation of the Well-to-Wheel emissions could be added.
+* We used SecureStore to store the journey history, rather than a full database. It's a very simple way to securely store key-value pairs on the device. However, all the journeys are stored into the same key, for ease of access. There's a 2048 bytes limit on value size, and so the storage can get full after a few dozen journeys. It would be possible to fix this by handling the SecureStorage keys more effectively, or by using a database.
