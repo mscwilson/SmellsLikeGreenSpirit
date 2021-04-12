@@ -27,34 +27,34 @@ This was a team project in the final two weeks of the [Makers Academy](https://m
 <b>No further development is planned for this app.</b>
 
 The app looks like this:
-<figure style="margin: auto;">
-<img src="assets/screenshots/homescreen.png" alt="home screen on loading" width="150">
+<figure style="margin: auto; layout: flex; flex-direction: row;">
 <figcaption>The Home screen after the app loads.</figcaption>
+<img src="assets/screenshots/homescreen.png" alt="home screen on loading" width="150">
 </figure><br>
 
 <figure style="margin: auto;">
-<img src="assets/screenshots/homescreen_filled.png" alt="home screen filled in" width="150">
 <figcaption>Filled in number plate and the distance. The user can toggle between km and miles.</figcaption>
+<img src="assets/screenshots/homescreen_filled.png" alt="home screen filled in" width="150">
 </figure><br>
 
 <figure style="margin: auto;">
-<img src="assets/screenshots/results.png" alt="results for normal car" width="150">
 <figcaption>This is how much CO<sub>2</sub> would be emitted directly out of the car for a journey of that length.</figcaption>
+<img src="assets/screenshots/results.png" alt="results for normal car" width="150">
 </figure><br>
 
 <figure style="margin: auto;">
-<img src="assets/screenshots/results_electric.png" alt="results for electric car" width="150">
 <figcaption>No emissions for an electric car.</figcaption>
+<img src="assets/screenshots/results_electric.png" alt="results for electric car" width="150">
 </figure><br>
 
 <figure style="margin: auto;">
-<img src="assets/screenshots/history.png" alt="journey history" width="150">
 <figcaption>The history of all entered journeys.</figcaption>
+<img src="assets/screenshots/history.png" alt="journey history" width="150">
 </figure><br>
 
 <figure style="margin: auto;">
-<img src="assets/screenshots/about.png" alt="about the app" width="150">
 <figcaption>An About screen, which also links to more facts about carbon emissions.</figcaption>
+<img src="assets/screenshots/about.png" alt="about the app" width="150">
 </figure><br>
 
 
