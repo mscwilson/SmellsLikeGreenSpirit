@@ -8,13 +8,13 @@
 
 
 
-[Description](#description)
-[Technologies Used](#technologies-used)
-[Cars and Carbon Emissions](#cars-and-carbon-emissions)
-[Development Team](#development-team)
-[Installation and Usage](#installation-and-usage)
-[Learning](#learning)
-[Things to Improve](#things-to-improve)
+[Description](#description) 
+[Technologies Used](#technologies-used)  
+[Cars and Carbon Emissions](#cars-and-carbon-emissions)  
+[Development Team](#development-team)  
+[Installation and Usage](#installation-and-usage)  
+[Learning](#learning)  
+[Things to Improve](#things-to-improve)  
 
 ## Description
 
@@ -60,7 +60,7 @@ The app looks like this:
 
 ## Technologies Used
 
-We chose [React Native](https://reactnative.dev/) as it is cross-platform, extremely well documented, and to practice JavaScript. As we only had two weeks, we simplified the project by using the [Expo](https://expo.io/) platform.
+We chose [React Native](https://reactnative.dev/) as it is cross-platform, extremely well documented, and to practice JavaScript. As we only had two weeks, we simplified the project by using the [Expo](https://expo.io/) platform.  
 
 Area | Technology
 ---- | ----
@@ -68,9 +68,9 @@ Framework | React Native, Expo
 Language | Javascript, JSX
 Libraries | React Navigation, Axios
 API | [DVLA Vehicle Enquiry Service](https://developer-portal.driver-vehicle-licensing.api.gov.uk/apis/vehicle-enquiry-service/vehicle-enquiry-service-description.html#vehicle-enquiry-service-api)
-Emulators | Xcode, Android Studio
+Emulators | Xcode, Android Studio  
 
-The logo was made by me using [Affinity Designer](https://affinity.serif.com/en-gb/designer/) and a [car vector](https://www.freepik.com/free-vector/electric-vehicle-use-abstract-concept-illustration-zero-emission-vehicle-urban-electromobile-service-modern-electric-car-industrial-use-eco-friendly-transportation_12145545.htm) created by vectorjuice from [Freepik](https://www.freepik.com).
+The logo was made by me using [Affinity Designer](https://affinity.serif.com/en-gb/designer/) and a [car vector](https://www.freepik.com/free-vector/electric-vehicle-use-abstract-concept-illustration-zero-emission-vehicle-urban-electromobile-service-modern-electric-car-industrial-use-eco-friendly-transportation_12145545.htm) created by vectorjuice from [Freepik](https://www.freepik.com).  
 
 ## Cars and Carbon Emissions
  ```
@@ -84,24 +84,24 @@ The logo was made by me using [Affinity Designer](https://affinity.serif.com/en-
  I want to offset the carbon I release
  ```
 
-It turns out that every model of car has a [CO<sub>2</sub> emissions](https://www.which.co.uk/reviews/new-and-used-cars/article/car-emissions/car-co2-emissions-aRVNW9t0zLu6) value associated with it, expressed in g/km. This is a lab-measured value based on how much CO<sub>2</sub> directly comes out of the car as it travels, known as the Tank-to-Wheel emissions (ie fuel Tank). This value doesn't take into account any emissions caused by generating the fuel. Fully electric cars have 0 g/km Tank-to-Wheel CO<sub>2</sub> emissions, while their Well-to-Wheel (ie oil Well) emissions will vary based on how the electricity was made. A small petrol car has around 180 g/km CO<sub>2</sub> emissions (Tank-to-Wheel), while a sports car's could be three times more.
+It turns out that every model of car has a [CO<sub>2</sub> emissions](https://www.which.co.uk/reviews/new-and-used-cars/article/car-emissions/car-co2-emissions-aRVNW9t0zLu6) value associated with it, expressed in g/km. This is a lab-measured value based on how much CO<sub>2</sub> directly comes out of the car as it travels, known as the Tank-to-Wheel emissions (ie fuel Tank). This value doesn't take into account any emissions caused by generating the fuel. Fully electric cars have 0 g/km Tank-to-Wheel CO<sub>2</sub> emissions, while their Well-to-Wheel (ie oil Well) emissions will vary based on how the electricity was made. A small petrol car has around 180 g/km CO<sub>2</sub> emissions (Tank-to-Wheel), while a sports car's could be three times more.  
 
-We used the [DVLA Vehicle Enquiry API](https://developer-portal.driver-vehicle-licensing.api.gov.uk/apis/vehicle-enquiry-service/vehicle-enquiry-service-description.html#vehicle-enquiry-service-api) to get details about a car based on the licence plate. These details include the CO<sub>2</sub> emissions. We multiplied this value by the distance given by the user in km to find out the direct CO<sub>2</sub> emissions for the journey.
+We used the [DVLA Vehicle Enquiry API](https://developer-portal.driver-vehicle-licensing.api.gov.uk/apis/vehicle-enquiry-service/vehicle-enquiry-service-description.html#vehicle-enquiry-service-api) to get details about a car based on the licence plate. These details include the CO<sub>2</sub> emissions. We multiplied this value by the distance given by the user in km to find out the direct CO<sub>2</sub> emissions for the journey.  
 
-The best solution for reducing atmospheric carbon is to reduce carbon emissions. But if emissions are unavoidable, the effects can theoretically be mitigated by carbon offsetting: paying a company to invest in schemes to sequester carbon or reduce emissions elsewhere.
+The best solution for reducing atmospheric carbon is to reduce carbon emissions. But if emissions are unavoidable, the effects can theoretically be mitigated by carbon offsetting: paying a company to invest in schemes to sequester carbon or reduce emissions elsewhere.  
 
 
 ## Development Team
 
-[Glykeria Stravodimou](https://github.com/GlykeriaStr)
-[Jonathan Dawson](https://github.com/KarstenFinlay)
-[Karsten Finlay](https://github.com/bullhornfixie)
-[Miranda Wilson](https://github.com/mscwilson)
-[Tom Twigden](https://github.com/twigz826)
+[Glykeria Stravodimou](https://github.com/GlykeriaStr)  
+[Jonathan Dawson](https://github.com/KarstenFinlay)  
+[Karsten Finlay](https://github.com/bullhornfixie)  
+[Miranda Wilson](https://github.com/mscwilson)  
+[Tom Twigden](https://github.com/twigz826)  
 
 ## Installation and Usage
 
-You will need an API key from [DVLA Vehicle Enquiry API](https://developer-portal.driver-vehicle-licensing.api.gov.uk/apis/vehicle-enquiry-service/vehicle-enquiry-service-description.html#vehicle-enquiry-service-api) to run the code.
+You will need an API key from [DVLA Vehicle Enquiry API](https://developer-portal.driver-vehicle-licensing.api.gov.uk/apis/vehicle-enquiry-service/vehicle-enquiry-service-description.html#vehicle-enquiry-service-api) to run the code.  
 
 1) Request an API key (could take up to 2 weeks for a response)
 2) Clone this repository
@@ -118,12 +118,12 @@ You will need an API key from [DVLA Vehicle Enquiry API](https://developer-porta
 
 ## Learning
 
-Check out our learning log [here](https://github.com/GlykeriaStr/SmellsLikeGreenSpirit/blob/main/Documenting-Learning.md).
+Check out our learning log [here](https://github.com/GlykeriaStr/SmellsLikeGreenSpirit/blob/main/Documenting-Learning.md).  
 
 Check out our team charter [here](https://docs.google.com/document/d/15LuIkztoejXSH3xnyBak-b4HoZsaHOXN011JJEcq4zk/edit).
 
 ## Things to Improve
-* This app works on iOS and Android, but is not currently supported on the web.
+* This app works on iOS and Android, but is not currently supported on the web.  
 * Because we used a managed Expo workflow, we were limited in several ways. The native config files are hidden in this type of project, and many libraries are not supported. It's possible to "eject" from Expo, but we didn't have time during the project.
   * No automated E2E testing. We regularly followed a manual testing protocol instead.
   * No In-App Purchases. We wanted the user to be able to buy carbon offsets directly. As a temporary solution, we linked to a company's website.
